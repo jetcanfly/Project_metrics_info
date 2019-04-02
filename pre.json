@@ -1,0 +1,1332 @@
+{
+	"core-metadata\\src\\main\\java\\org\\apache\\kylin\\metadata\\project\\ProjectManager.java": {
+		"change_number": 4,
+		"code_churn": 51,
+		"owner_number": 4,
+		"pre-release defect": 1
+	},
+	"query\\src\\main\\java\\org\\apache\\kylin\\query\\util\\DefaultQueryTransformer.java": {
+		"change_number": 3,
+		"code_churn": 21,
+		"owner_number": 2,
+		"pre-release defect": 1
+	},
+	"core-common\\src\\main\\java\\org\\apache\\kylin\\common\\htrace\\HtraceInit.java": {
+		"change_number": 1,
+		"code_churn": 94,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-storage\\src\\main\\java\\org\\apache\\kylin\\storage\\gtrecord\\ScannerWorker.java": {
+		"change_number": 1,
+		"code_churn": 33,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"query\\src\\main\\java\\org\\apache\\kylin\\query\\enumerator\\OLAPEnumerator.java": {
+		"change_number": 1,
+		"code_churn": 30,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"server-base\\src\\main\\java\\org\\apache\\kylin\\rest\\service\\QueryService.java": {
+		"change_number": 4,
+		"code_churn": 367,
+		"owner_number": 3,
+		"pre-release defect": 1
+	},
+	"core-cube\\src\\main\\java\\org\\apache\\kylin\\cube\\cli\\DictionaryGeneratorCLI.java": {
+		"change_number": 1,
+		"code_churn": 8,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-cube\\src\\main\\java\\org\\apache\\kylin\\cube\\inmemcubing\\CuboidResult.java": {
+		"change_number": 2,
+		"code_churn": 12,
+		"owner_number": 2
+	},
+	"jdbc\\src\\main\\java\\org\\apache\\kylin\\jdbc\\KylinConnection.java": {
+		"change_number": 2,
+		"code_churn": 10,
+		"owner_number": 1
+	},
+	"query\\src\\main\\java\\org\\apache\\kylin\\query\\relnode\\OLAPContext.java": {
+		"change_number": 2,
+		"code_churn": 4,
+		"owner_number": 2,
+		"pre-release defect": 1
+	},
+	"query\\src\\main\\java\\org\\apache\\kylin\\query\\schema\\OLAPSchema.java": {
+		"change_number": 1,
+		"code_churn": 4,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-job\\src\\main\\java\\org\\apache\\kylin\\job\\impl\\threadpool\\DefaultFetcherRunner.java": {
+		"change_number": 1,
+		"code_churn": 104,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-job\\src\\main\\java\\org\\apache\\kylin\\job\\impl\\threadpool\\DefaultScheduler.java": {
+		"change_number": 1,
+		"code_churn": 210,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-job\\src\\main\\java\\org\\apache\\kylin\\job\\impl\\threadpool\\DistributedScheduler.java": {
+		"change_number": 1,
+		"code_churn": 116,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-job\\src\\main\\java\\org\\apache\\kylin\\job\\impl\\threadpool\\FetcherRunner.java": {
+		"change_number": 1,
+		"code_churn": 77,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-job\\src\\main\\java\\org\\apache\\kylin\\job\\impl\\threadpool\\JobExecutor.java": {
+		"change_number": 1,
+		"code_churn": 25,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-job\\src\\main\\java\\org\\apache\\kylin\\job\\impl\\threadpool\\PriorityFetcherRunner.java": {
+		"change_number": 1,
+		"code_churn": 146,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-common\\src\\main\\java\\org\\apache\\kylin\\common\\KylinVersion.java": {
+		"change_number": 2,
+		"code_churn": 4,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-common\\src\\main\\java\\org\\apache\\kylin\\common\\KylinConfigBase.java": {
+		"change_number": 15,
+		"code_churn": 279,
+		"owner_number": 9,
+		"pre-release defect": 1
+	},
+	"storage-hbase\\src\\main\\java\\org\\apache\\kylin\\storage\\hbase\\steps\\CubeHTableUtil.java": {
+		"change_number": 1,
+		"code_churn": 1,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-common\\src\\main\\java\\org\\apache\\kylin\\common\\KylinConfig.java": {
+		"change_number": 4,
+		"code_churn": 50,
+		"owner_number": 2,
+		"pre-release defect": 1
+	},
+	"core-common\\src\\main\\java\\org\\apache\\kylin\\common\\util\\BytesUtil.java": {
+		"change_number": 1,
+		"code_churn": 15,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-common\\src\\main\\java\\org\\apache\\kylin\\common\\util\\ClassUtil.java": {
+		"change_number": 1,
+		"code_churn": 10,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-metadata\\src\\main\\java\\org\\apache\\kylin\\metadata\\model\\JoinsTree.java": {
+		"change_number": 1,
+		"code_churn": 2,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-metrics\\src\\main\\java\\org\\apache\\kylin\\metrics\\MetricsManager.java": {
+		"change_number": 1,
+		"code_churn": 2,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"engine-mr\\src\\main\\java\\org\\apache\\kylin\\engine\\mr\\BatchCubingJobBuilder2.java": {
+		"change_number": 2,
+		"code_churn": 40,
+		"owner_number": 2,
+		"pre-release defect": 1
+	},
+	"engine-mr\\src\\main\\java\\org\\apache\\kylin\\engine\\mr\\BatchMergeJobBuilder2.java": {
+		"change_number": 3,
+		"code_churn": 47,
+		"owner_number": 2,
+		"pre-release defect": 1
+	},
+	"engine-mr\\src\\main\\java\\org\\apache\\kylin\\engine\\mr\\JobBuilderSupport.java": {
+		"change_number": 6,
+		"code_churn": 136,
+		"owner_number": 4,
+		"pre-release defect": 1
+	},
+	"engine-spark\\src\\main\\java\\org\\apache\\kylin\\engine\\spark\\ISparkInput.java": {
+		"change_number": 1,
+		"code_churn": 60,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"engine-spark\\src\\main\\java\\org\\apache\\kylin\\engine\\spark\\ISparkOutput.java": {
+		"change_number": 1,
+		"code_churn": 129,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"engine-spark\\src\\main\\java\\org\\apache\\kylin\\engine\\spark\\KylinKryoRegistrator.java": {
+		"change_number": 2,
+		"code_churn": 13,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"engine-spark\\src\\main\\java\\org\\apache\\kylin\\engine\\spark\\KylinSparkJobListener.java": {
+		"change_number": 2,
+		"code_churn": 57,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"engine-spark\\src\\main\\java\\org\\apache\\kylin\\engine\\spark\\SparkBatchCubingEngine2.java": {
+		"change_number": 1,
+		"code_churn": 39,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"engine-spark\\src\\main\\java\\org\\apache\\kylin\\engine\\spark\\SparkBatchCubingJobBuilder2.java": {
+		"change_number": 3,
+		"code_churn": 102,
+		"owner_number": 2,
+		"pre-release defect": 1
+	},
+	"engine-spark\\src\\main\\java\\org\\apache\\kylin\\engine\\spark\\SparkBatchMergeJobBuilder2.java": {
+		"change_number": 4,
+		"code_churn": 159,
+		"owner_number": 2,
+		"pre-release defect": 1
+	},
+	"engine-spark\\src\\main\\java\\org\\apache\\kylin\\engine\\spark\\SparkCubingByLayer.java": {
+		"change_number": 6,
+		"code_churn": 194,
+		"owner_number": 2,
+		"pre-release defect": 1
+	},
+	"engine-spark\\src\\main\\java\\org\\apache\\kylin\\engine\\spark\\SparkExecutable.java": {
+		"change_number": 14,
+		"code_churn": 525,
+		"owner_number": 3,
+		"pre-release defect": 1
+	},
+	"engine-spark\\src\\main\\java\\org\\apache\\kylin\\engine\\spark\\SparkUtil.java": {
+		"change_number": 5,
+		"code_churn": 210,
+		"owner_number": 2,
+		"pre-release defect": 1
+	},
+	"source-hive\\src\\main\\java\\org\\apache\\kylin\\source\\hive\\GarbageCollectionStep.java": {
+		"change_number": 2,
+		"code_churn": 132,
+		"owner_number": 2,
+		"pre-release defect": 1
+	},
+	"source-hive\\src\\main\\java\\org\\apache\\kylin\\source\\hive\\HiveInputBase.java": {
+		"change_number": 2,
+		"code_churn": 172,
+		"owner_number": 2,
+		"pre-release defect": 1
+	},
+	"source-hive\\src\\main\\java\\org\\apache\\kylin\\source\\hive\\HiveMRInput.java": {
+		"change_number": 5,
+		"code_churn": 383,
+		"owner_number": 5,
+		"pre-release defect": 1
+	},
+	"source-hive\\src\\main\\java\\org\\apache\\kylin\\source\\hive\\HiveSource.java": {
+		"change_number": 2,
+		"code_churn": 8,
+		"owner_number": 2,
+		"pre-release defect": 1
+	},
+	"source-hive\\src\\main\\java\\org\\apache\\kylin\\source\\hive\\HiveSparkInput.java": {
+		"change_number": 2,
+		"code_churn": 136,
+		"owner_number": 2,
+		"pre-release defect": 1
+	},
+	"source-hive\\src\\main\\java\\org\\apache\\kylin\\source\\hive\\RedistributeFlatHiveTableStep.java": {
+		"change_number": 1,
+		"code_churn": 147,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"source-hive\\src\\main\\java\\org\\apache\\kylin\\source\\jdbc\\JdbcHiveMRInput.java": {
+		"change_number": 3,
+		"code_churn": 16,
+		"owner_number": 2,
+		"pre-release defect": 1
+	},
+	"source-kafka\\src\\main\\java\\org\\apache\\kylin\\source\\kafka\\KafkaInputBase.java": {
+		"change_number": 1,
+		"code_churn": 163,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"source-kafka\\src\\main\\java\\org\\apache\\kylin\\source\\kafka\\KafkaMRInput.java": {
+		"change_number": 2,
+		"code_churn": 185,
+		"owner_number": 2,
+		"pre-release defect": 1
+	},
+	"source-kafka\\src\\main\\java\\org\\apache\\kylin\\source\\kafka\\KafkaSource.java": {
+		"change_number": 2,
+		"code_churn": 17,
+		"owner_number": 2,
+		"pre-release defect": 1
+	},
+	"source-kafka\\src\\main\\java\\org\\apache\\kylin\\source\\kafka\\KafkaSparkInput.java": {
+		"change_number": 1,
+		"code_churn": 120,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"storage-hbase\\src\\main\\java\\org\\apache\\kylin\\storage\\hbase\\HBaseStorage.java": {
+		"change_number": 1,
+		"code_churn": 19,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"storage-hbase\\src\\main\\java\\org\\apache\\kylin\\storage\\hbase\\steps\\HBaseJobSteps.java": {
+		"change_number": 3,
+		"code_churn": 281,
+		"owner_number": 3,
+		"pre-release defect": 1
+	},
+	"storage-hbase\\src\\main\\java\\org\\apache\\kylin\\storage\\hbase\\steps\\HBaseMROutput2Transition.java": {
+		"change_number": 3,
+		"code_churn": 46,
+		"owner_number": 2,
+		"pre-release defect": 1
+	},
+	"storage-hbase\\src\\main\\java\\org\\apache\\kylin\\storage\\hbase\\steps\\HBaseMRSteps.java": {
+		"change_number": 1,
+		"code_churn": 213,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"storage-hbase\\src\\main\\java\\org\\apache\\kylin\\storage\\hbase\\steps\\HBaseSparkOutputTransition.java": {
+		"change_number": 2,
+		"code_churn": 103,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"storage-hbase\\src\\main\\java\\org\\apache\\kylin\\storage\\hbase\\steps\\HBaseSparkSteps.java": {
+		"change_number": 4,
+		"code_churn": 95,
+		"owner_number": 3,
+		"pre-release defect": 1
+	},
+	"storage-hbase\\src\\main\\java\\org\\apache\\kylin\\storage\\hbase\\steps\\KeyValueCreator.java": {
+		"change_number": 1,
+		"code_churn": 3,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"storage-hbase\\src\\main\\java\\org\\apache\\kylin\\storage\\hbase\\steps\\RowKeyWritable.java": {
+		"change_number": 1,
+		"code_churn": 41,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"storage-hbase\\src\\main\\java\\org\\apache\\kylin\\storage\\hbase\\steps\\SparkCubeHFile.java": {
+		"change_number": 7,
+		"code_churn": 505,
+		"owner_number": 3,
+		"pre-release defect": 1
+	},
+	"core-common\\src\\main\\java\\org\\apache\\kylin\\common\\persistence\\FileResourceStore.java": {
+		"change_number": 1,
+		"code_churn": 12,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"server-base\\src\\main\\java\\org\\apache\\kylin\\rest\\service\\BadQueryDetector.java": {
+		"change_number": 1,
+		"code_churn": 5,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"query\\src\\main\\java\\org\\apache\\kylin\\query\\security\\QueryInterceptorUtil.java": {
+		"change_number": 1,
+		"code_churn": 8,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-common\\src\\main\\java\\org\\apache\\kylin\\common\\exceptions\\TooBigDictionaryException.java": {
+		"change_number": 1,
+		"code_churn": 34,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-dictionary\\src\\main\\java\\org\\apache\\kylin\\dict\\TrieDictionary.java": {
+		"change_number": 2,
+		"code_churn": 54,
+		"owner_number": 2,
+		"pre-release defect": 1
+	},
+	"core-dictionary\\src\\main\\java\\org\\apache\\kylin\\dict\\TrieDictionaryBuilder.java": {
+		"change_number": 1,
+		"code_churn": 2,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-dictionary\\src\\main\\java\\org\\apache\\kylin\\dict\\TrieDictionaryForest.java": {
+		"change_number": 1,
+		"code_churn": 2,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-dictionary\\src\\main\\java\\org\\apache\\kylin\\dict\\TrieDictionaryForestBuilder.java": {
+		"change_number": 1,
+		"code_churn": 17,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-cube\\src\\main\\java\\org\\apache\\kylin\\cube\\CubeSegment.java": {
+		"change_number": 1,
+		"code_churn": 12,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-cube\\src\\main\\java\\org\\apache\\kylin\\cube\\DimensionRangeInfo.java": {
+		"change_number": 3,
+		"code_churn": 115,
+		"owner_number": 3,
+		"pre-release defect": 1
+	},
+	"core-cube\\src\\main\\java\\org\\apache\\kylin\\cube\\common\\SegmentPruner.java": {
+		"change_number": 1,
+		"code_churn": 179,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-cube\\src\\main\\java\\org\\apache\\kylin\\cube\\gridtable\\ScanRangePlannerBase.java": {
+		"change_number": 1,
+		"code_churn": 4,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-cube\\src\\main\\java\\org\\apache\\kylin\\cube\\inmemcubing\\InputConverterUnitForRawData.java": {
+		"change_number": 1,
+		"code_churn": 2,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-cube\\src\\main\\java\\org\\apache\\kylin\\cube\\kv\\RowKeyColumnOrder.java": {
+		"change_number": 1,
+		"code_churn": 108,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-cube\\src\\main\\java\\org\\apache\\kylin\\cube\\model\\CubeJoinedFlatTableDesc.java": {
+		"change_number": 1,
+		"code_churn": 13,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-metadata\\src\\main\\java\\org\\apache\\kylin\\metadata\\datatype\\DataType.java": {
+		"change_number": 3,
+		"code_churn": 38,
+		"owner_number": 3,
+		"pre-release defect": 1
+	},
+	"core-metadata\\src\\main\\java\\org\\apache\\kylin\\metadata\\datatype\\DataTypeOrder.java": {
+		"change_number": 2,
+		"code_churn": 166,
+		"owner_number": 2,
+		"pre-release defect": 1
+	},
+	"core-metadata\\src\\main\\java\\org\\apache\\kylin\\metadata\\filter\\CompareTupleFilter.java": {
+		"change_number": 2,
+		"code_churn": 13,
+		"owner_number": 2,
+		"pre-release defect": 1
+	},
+	"core-metadata\\src\\main\\java\\org\\apache\\kylin\\metadata\\filter\\TupleFilter.java": {
+		"change_number": 1,
+		"code_churn": 116,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-storage\\src\\main\\java\\org\\apache\\kylin\\storage\\gtrecord\\CubeScanRangePlanner.java": {
+		"change_number": 1,
+		"code_churn": 30,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-storage\\src\\main\\java\\org\\apache\\kylin\\storage\\gtrecord\\GTCubeStorageQueryBase.java": {
+		"change_number": 1,
+		"code_churn": 9,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-storage\\src\\main\\java\\org\\apache\\kylin\\storage\\translate\\ColumnValueRange.java": {
+		"change_number": 1,
+		"code_churn": 214,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-storage\\src\\main\\java\\org\\apache\\kylin\\storage\\translate\\DerivedFilterTranslator.java": {
+		"change_number": 1,
+		"code_churn": 6,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-storage\\src\\main\\java\\org\\apache\\kylin\\storage\\translate\\HBaseKeyRange.java": {
+		"change_number": 1,
+		"code_churn": 273,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"engine-mr\\src\\main\\java\\org\\apache\\kylin\\engine\\mr\\common\\BaseCuboidBuilder.java": {
+		"change_number": 2,
+		"code_churn": 9,
+		"owner_number": 2,
+		"pre-release defect": 1
+	},
+	"engine-mr\\src\\main\\java\\org\\apache\\kylin\\engine\\mr\\steps\\BaseCuboidMapperBase.java": {
+		"change_number": 2,
+		"code_churn": 19,
+		"owner_number": 2,
+		"pre-release defect": 1
+	},
+	"engine-mr\\src\\main\\java\\org\\apache\\kylin\\engine\\mr\\steps\\CalculateStatsFromBaseCuboidJob.java": {
+		"change_number": 1,
+		"code_churn": 1,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"engine-mr\\src\\main\\java\\org\\apache\\kylin\\engine\\mr\\steps\\FactDistinctColumnPartitioner.java": {
+		"change_number": 1,
+		"code_churn": 5,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"engine-mr\\src\\main\\java\\org\\apache\\kylin\\engine\\mr\\steps\\FactDistinctColumnsJob.java": {
+		"change_number": 1,
+		"code_churn": 2,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"engine-mr\\src\\main\\java\\org\\apache\\kylin\\engine\\mr\\steps\\FactDistinctColumnsMapper.java": {
+		"change_number": 2,
+		"code_churn": 170,
+		"owner_number": 2,
+		"pre-release defect": 1
+	},
+	"engine-mr\\src\\main\\java\\org\\apache\\kylin\\engine\\mr\\steps\\FactDistinctColumnsMapperBase.java": {
+		"change_number": 2,
+		"code_churn": 31,
+		"owner_number": 2,
+		"pre-release defect": 1
+	},
+	"engine-mr\\src\\main\\java\\org\\apache\\kylin\\engine\\mr\\steps\\FactDistinctColumnsReducer.java": {
+		"change_number": 1,
+		"code_churn": 90,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"engine-mr\\src\\main\\java\\org\\apache\\kylin\\engine\\mr\\steps\\FactDistinctColumnsReducerMapping.java": {
+		"change_number": 1,
+		"code_churn": 87,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"engine-mr\\src\\main\\java\\org\\apache\\kylin\\engine\\mr\\steps\\UpdateCubeInfoAfterBuildStep.java": {
+		"change_number": 1,
+		"code_churn": 83,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"engine-mr\\src\\main\\java\\org\\apache\\kylin\\engine\\mr\\steps\\UpdateCubeInfoAfterMergeStep.java": {
+		"change_number": 1,
+		"code_churn": 20,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"engine-mr\\src\\main\\java\\org\\apache\\kylin\\engine\\mr\\steps\\UpdateCubeInfoAfterOptimizeStep.java": {
+		"change_number": 1,
+		"code_churn": 1,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"query\\src\\main\\java\\org\\apache\\kylin\\query\\optrule\\AggregateMultipleExpandRule.java": {
+		"change_number": 1,
+		"code_churn": 16,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"query\\src\\main\\java\\org\\apache\\kylin\\query\\relnode\\OLAPFilterRel.java": {
+		"change_number": 1,
+		"code_churn": 26,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"source-hive\\src\\main\\java\\org\\apache\\kylin\\source\\hive\\HiveTableReader.java": {
+		"change_number": 1,
+		"code_churn": 2,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-metadata\\src\\main\\java\\org\\apache\\kylin\\metadata\\filter\\FilterCodeSystemFactory.java": {
+		"change_number": 1,
+		"code_churn": 2,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-job\\src\\main\\java\\org\\apache\\kylin\\job\\common\\PatternedLogger.java": {
+		"change_number": 5,
+		"code_churn": 127,
+		"owner_number": 2,
+		"pre-release defect": 1
+	},
+	"core-cube\\src\\main\\java\\org\\apache\\kylin\\cube\\CubeManager.java": {
+		"change_number": 8,
+		"code_churn": 44,
+		"owner_number": 6,
+		"pre-release defect": 1
+	},
+	"core-common\\src\\main\\java\\org\\apache\\kylin\\common\\util\\HadoopUtil.java": {
+		"change_number": 4,
+		"code_churn": 61,
+		"owner_number": 3,
+		"pre-release defect": 1
+	},
+	"core-cube\\src\\main\\java\\org\\apache\\kylin\\cube\\CubeInstance.java": {
+		"change_number": 1,
+		"code_churn": 10,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"engine-mr\\src\\main\\java\\org\\apache\\kylin\\engine\\mr\\steps\\MergeCuboidMapper.java": {
+		"change_number": 1,
+		"code_churn": 196,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"engine-mr\\src\\main\\java\\org\\apache\\kylin\\engine\\mr\\steps\\SegmentReEncoder.java": {
+		"change_number": 2,
+		"code_churn": 276,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"engine-spark\\src\\main\\java\\org\\apache\\kylin\\engine\\spark\\SparkCubingMerge.java": {
+		"change_number": 4,
+		"code_churn": 447,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"storage-hbase\\src\\main\\java\\org\\apache\\kylin\\storage\\hbase\\steps\\CubeHFileJob.java": {
+		"change_number": 1,
+		"code_churn": 3,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-cube\\src\\main\\java\\org\\apache\\kylin\\cube\\CubeDescManager.java": {
+		"change_number": 2,
+		"code_churn": 21,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-common\\src\\main\\java\\org\\apache\\kylin\\common\\util\\DateFormat.java": {
+		"change_number": 1,
+		"code_churn": 30,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-metadata\\src\\main\\java\\org\\apache\\kylin\\metadata\\model\\PartitionDesc.java": {
+		"change_number": 1,
+		"code_churn": 8,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-job\\src\\main\\java\\org\\apache\\kylin\\job\\JoinedFlatTable.java": {
+		"change_number": 3,
+		"code_churn": 40,
+		"owner_number": 2,
+		"pre-release defect": 1
+	},
+	"core-storage\\src\\main\\java\\org\\apache\\kylin\\storage\\hybrid\\HybridInstance.java": {
+		"change_number": 2,
+		"code_churn": 19,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"server-base\\src\\main\\java\\org\\apache\\kylin\\rest\\job\\HybridCubeCLI.java": {
+		"change_number": 5,
+		"code_churn": 99,
+		"owner_number": 2,
+		"pre-release defect": 1
+	},
+	"server-base\\src\\main\\java\\org\\apache\\kylin\\rest\\service\\CubeService.java": {
+		"change_number": 2,
+		"code_churn": 55,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"server-base\\src\\main\\java\\org\\apache\\kylin\\rest\\service\\HybridService.java": {
+		"change_number": 2,
+		"code_churn": 33,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-metadata\\src\\main\\java\\org\\apache\\kylin\\metadata\\cachesync\\Broadcaster.java": {
+		"change_number": 1,
+		"code_churn": 6,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-metadata\\src\\main\\java\\org\\apache\\kylin\\metadata\\project\\ProjectL2Cache.java": {
+		"change_number": 1,
+		"code_churn": 8,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-common\\src\\main\\java\\org\\apache\\kylin\\common\\util\\CliCommandExecutor.java": {
+		"change_number": 1,
+		"code_churn": 15,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-job\\src\\main\\java\\org\\apache\\kylin\\job\\constant\\ExecutableConstants.java": {
+		"change_number": 4,
+		"code_churn": 6,
+		"owner_number": 3,
+		"pre-release defect": 1
+	},
+	"core-cube\\src\\main\\java\\org\\apache\\kylin\\cube\\common\\RowKeySplitter.java": {
+		"change_number": 1,
+		"code_churn": 38,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-cube\\src\\main\\java\\org\\apache\\kylin\\cube\\cuboid\\Cuboid.java": {
+		"change_number": 1,
+		"code_churn": 2,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-cube\\src\\main\\java\\org\\apache\\kylin\\cube\\cuboid\\CuboidManager.java": {
+		"change_number": 1,
+		"code_churn": 15,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-cube\\src\\main\\java\\org\\apache\\kylin\\cube\\kv\\FuzzyMaskEncoder.java": {
+		"change_number": 1,
+		"code_churn": 2,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-cube\\src\\main\\java\\org\\apache\\kylin\\cube\\kv\\RowKeyDecoder.java": {
+		"change_number": 1,
+		"code_churn": 10,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-cube\\src\\main\\java\\org\\apache\\kylin\\cube\\kv\\RowKeyEncoder.java": {
+		"change_number": 1,
+		"code_churn": 4,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"engine-mr\\src\\main\\java\\org\\apache\\kylin\\engine\\mr\\common\\AbstractHadoopJob.java": {
+		"change_number": 5,
+		"code_churn": 87,
+		"owner_number": 4,
+		"pre-release defect": 1
+	},
+	"engine-mr\\src\\main\\java\\org\\apache\\kylin\\engine\\mr\\common\\NDCuboidBuilder.java": {
+		"change_number": 1,
+		"code_churn": 54,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"engine-mr\\src\\main\\java\\org\\apache\\kylin\\engine\\mr\\steps\\NDCuboidMapper.java": {
+		"change_number": 1,
+		"code_churn": 3,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"engine-mr\\src\\main\\java\\org\\apache\\kylin\\engine\\mr\\steps\\UpdateOldCuboidShardMapper.java": {
+		"change_number": 1,
+		"code_churn": 7,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"storage-hbase\\src\\main\\java\\org\\apache\\kylin\\storage\\hbase\\common\\coprocessor\\CoprocessorProjector.java": {
+		"change_number": 1,
+		"code_churn": 2,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"server-base\\src\\main\\java\\org\\apache\\kylin\\rest\\controller\\HybridController.java": {
+		"change_number": 1,
+		"code_churn": 47,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"server-base\\src\\main\\java\\org\\apache\\kylin\\rest\\response\\HybridRespone.java": {
+		"change_number": 1,
+		"code_churn": 61,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-metadata\\src\\main\\java\\org\\apache\\kylin\\measure\\bitmap\\BitmapSerializer.java": {
+		"change_number": 1,
+		"code_churn": 14,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-metadata\\src\\main\\java\\org\\apache\\kylin\\measure\\hllc\\HLLCSerializer.java": {
+		"change_number": 2,
+		"code_churn": 14,
+		"owner_number": 2,
+		"pre-release defect": 1
+	},
+	"core-metadata\\src\\main\\java\\org\\apache\\kylin\\measure\\hllc\\HLLCounter.java": {
+		"change_number": 1,
+		"code_churn": 4,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-metadata\\src\\main\\java\\org\\apache\\kylin\\measure\\topn\\TopNCounterSerializer.java": {
+		"change_number": 1,
+		"code_churn": 17,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"engine-mr\\src\\main\\java\\org\\apache\\kylin\\engine\\mr\\common\\CubeStatsReader.java": {
+		"change_number": 1,
+		"code_churn": 39,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"engine-mr\\src\\main\\java\\org\\apache\\kylin\\engine\\mr\\common\\CubeStatsWriter.java": {
+		"change_number": 1,
+		"code_churn": 16,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"engine-mr\\src\\main\\java\\org\\apache\\kylin\\engine\\mr\\steps\\SaveStatisticsStep.java": {
+		"change_number": 1,
+		"code_churn": 9,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-metadata\\src\\main\\java\\org\\apache\\kylin\\measure\\bitmap\\BitmapAggregator.java": {
+		"change_number": 1,
+		"code_churn": 10,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-metadata\\src\\main\\java\\org\\apache\\kylin\\measure\\dim\\DimCountDistinctAggregator.java": {
+		"change_number": 1,
+		"code_churn": 5,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-metadata\\src\\main\\java\\org\\apache\\kylin\\measure\\hllc\\HLLCAggregator.java": {
+		"change_number": 1,
+		"code_churn": 5,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-metadata\\src\\main\\java\\org\\apache\\kylin\\measure\\percentile\\PercentileAggregator.java": {
+		"change_number": 1,
+		"code_churn": 5,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-metadata\\src\\main\\java\\org\\apache\\kylin\\measure\\raw\\RawAggregator.java": {
+		"change_number": 1,
+		"code_churn": 6,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-metadata\\src\\main\\java\\org\\apache\\kylin\\measure\\topn\\TopNAggregator.java": {
+		"change_number": 1,
+		"code_churn": 8,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-metadata\\src\\main\\java\\org\\apache\\kylin\\measure\\topn\\TopNCounter.java": {
+		"change_number": 1,
+		"code_churn": 12,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"query\\src\\main\\java\\org\\apache\\kylin\\query\\QueryConnection.java": {
+		"change_number": 1,
+		"code_churn": 1,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"server-base\\src\\main\\java\\org\\apache\\kylin\\rest\\controller\\BasicController.java": {
+		"change_number": 1,
+		"code_churn": 8,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"server-base\\src\\main\\java\\org\\apache\\kylin\\rest\\controller\\CubeController.java": {
+		"change_number": 2,
+		"code_churn": 127,
+		"owner_number": 2,
+		"pre-release defect": 1
+	},
+	"server-base\\src\\main\\java\\org\\apache\\kylin\\rest\\controller\\ModelController.java": {
+		"change_number": 2,
+		"code_churn": 6,
+		"owner_number": 2,
+		"pre-release defect": 1
+	},
+	"server-base\\src\\main\\java\\org\\apache\\kylin\\rest\\controller\\ProjectController.java": {
+		"change_number": 1,
+		"code_churn": 3,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"server-base\\src\\main\\java\\org\\apache\\kylin\\rest\\exception\\TooManyRequestException.java": {
+		"change_number": 1,
+		"code_churn": 58,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-metadata\\src\\main\\java\\org\\apache\\kylin\\metadata\\model\\FunctionDesc.java": {
+		"change_number": 1,
+		"code_churn": 4,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"atopcalcite\\src\\main\\java\\org\\apache\\calcite\\runtime\\SqlFunctions.java": {
+		"change_number": 1,
+		"code_churn": 2238,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"server-base\\src\\main\\java\\org\\apache\\kylin\\rest\\service\\ModelService.java": {
+		"change_number": 1,
+		"code_churn": 8,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"query\\src\\main\\java\\org\\apache\\kylin\\query\\relnode\\OLAPProjectRel.java": {
+		"change_number": 1,
+		"code_churn": 3,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"query\\src\\main\\java\\org\\apache\\kylin\\query\\relnode\\visitor\\TupleExpressionVisitor.java": {
+		"change_number": 1,
+		"code_churn": 8,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"engine-mr\\src\\main\\java\\org\\apache\\kylin\\engine\\mr\\steps\\FilterRecommendCuboidDataJob.java": {
+		"change_number": 1,
+		"code_churn": 4,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"engine-mr\\src\\main\\java\\org\\apache\\kylin\\engine\\mr\\steps\\UpdateOldCuboidShardJob.java": {
+		"change_number": 1,
+		"code_churn": 4,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-metadata\\src\\main\\java\\org\\apache\\kylin\\source\\ISource.java": {
+		"change_number": 1,
+		"code_churn": 6,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"server-base\\src\\main\\java\\org\\apache\\kylin\\rest\\service\\TableService.java": {
+		"change_number": 3,
+		"code_churn": 142,
+		"owner_number": 3,
+		"pre-release defect": 1
+	},
+	"source-hive\\src\\main\\java\\org\\apache\\kylin\\source\\jdbc\\JdbcSource.java": {
+		"change_number": 1,
+		"code_churn": 5,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"engine-mr\\src\\main\\java\\org\\apache\\kylin\\engine\\mr\\common\\BatchConstants.java": {
+		"change_number": 4,
+		"code_churn": 6,
+		"owner_number": 3,
+		"pre-release defect": 1
+	},
+	"engine-mr\\src\\main\\java\\org\\apache\\kylin\\engine\\mr\\steps\\MergeDictionaryJob.java": {
+		"change_number": 1,
+		"code_churn": 234,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"engine-mr\\src\\main\\java\\org\\apache\\kylin\\engine\\mr\\steps\\MergeDictionaryMapper.java": {
+		"change_number": 1,
+		"code_churn": 207,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"engine-mr\\src\\main\\java\\org\\apache\\kylin\\engine\\mr\\steps\\MergeDictionaryReducer.java": {
+		"change_number": 1,
+		"code_churn": 45,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"engine-mr\\src\\main\\java\\org\\apache\\kylin\\engine\\mr\\steps\\UpdateDictionaryStep.java": {
+		"change_number": 1,
+		"code_churn": 151,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"engine-spark\\src\\main\\java\\org\\apache\\kylin\\engine\\spark\\SparkMergingDictionary.java": {
+		"change_number": 2,
+		"code_churn": 485,
+		"owner_number": 2,
+		"pre-release defect": 1
+	},
+	"engine-mr\\src\\main\\java\\org\\apache\\kylin\\engine\\mr\\common\\JobRelatedMetaUtil.java": {
+		"change_number": 1,
+		"code_churn": 29,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"server-base\\src\\main\\java\\org\\apache\\kylin\\rest\\request\\PrepareSqlRequest.java": {
+		"change_number": 1,
+		"code_churn": 9,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-job\\src\\main\\java\\org\\apache\\kylin\\job\\JobSearchResult.java": {
+		"change_number": 1,
+		"code_churn": 66,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-job\\src\\main\\java\\org\\apache\\kylin\\job\\dao\\ExecutableDao.java": {
+		"change_number": 1,
+		"code_churn": 164,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-job\\src\\main\\java\\org\\apache\\kylin\\job\\execution\\ExecutableManager.java": {
+		"change_number": 1,
+		"code_churn": 23,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-metadata\\src\\main\\java\\org\\apache\\kylin\\metadata\\cachesync\\CachedCrudAssist.java": {
+		"change_number": 1,
+		"code_churn": 2,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"engine-mr\\src\\main\\java\\org\\apache\\kylin\\engine\\mr\\common\\JobInfoConverter.java": {
+		"change_number": 1,
+		"code_churn": 34,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"server-base\\src\\main\\java\\org\\apache\\kylin\\rest\\controller\\JobController.java": {
+		"change_number": 2,
+		"code_churn": 5,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"server-base\\src\\main\\java\\org\\apache\\kylin\\rest\\service\\JobService.java": {
+		"change_number": 2,
+		"code_churn": 641,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-common\\src\\main\\java\\org\\apache\\kylin\\common\\QueryContext.java": {
+		"change_number": 1,
+		"code_churn": 4,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-common\\src\\main\\java\\org\\apache\\kylin\\common\\persistence\\ResourceStore.java": {
+		"change_number": 2,
+		"code_churn": 9,
+		"owner_number": 2,
+		"pre-release defect": 1
+	},
+	"core-common\\src\\main\\java\\org\\apache\\kylin\\common\\persistence\\RootPersistentEntity.java": {
+		"change_number": 1,
+		"code_churn": 4,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-common\\src\\main\\java\\org\\apache\\kylin\\common\\util\\RandomUtil.java": {
+		"change_number": 1,
+		"code_churn": 28,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-dictionary\\src\\main\\java\\org\\apache\\kylin\\dict\\global\\SegmentAppendTrieDictBuilder.java": {
+		"change_number": 1,
+		"code_churn": 4,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-job\\src\\main\\java\\org\\apache\\kylin\\job\\execution\\AbstractExecutable.java": {
+		"change_number": 2,
+		"code_churn": 29,
+		"owner_number": 2,
+		"pre-release defect": 1
+	},
+	"core-metadata\\src\\main\\java\\org\\apache\\kylin\\metadata\\TableMetadataManager.java": {
+		"change_number": 1,
+		"code_churn": 6,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"server-base\\src\\main\\java\\org\\apache\\kylin\\rest\\controller\\ExternalFilterController.java": {
+		"change_number": 1,
+		"code_churn": 4,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"server-base\\src\\main\\java\\org\\apache\\kylin\\rest\\controller\\StreamingController.java": {
+		"change_number": 2,
+		"code_churn": 8,
+		"owner_number": 2,
+		"pre-release defect": 1
+	},
+	"source-hive\\src\\main\\java\\org\\apache\\kylin\\source\\hive\\HiveMetadataExplorer.java": {
+		"change_number": 1,
+		"code_churn": 5,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"source-hive\\src\\main\\java\\org\\apache\\kylin\\source\\jdbc\\JdbcExplorer.java": {
+		"change_number": 1,
+		"code_churn": 5,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"source-kafka\\src\\main\\java\\org\\apache\\kylin\\source\\kafka\\util\\KafkaSampleProducer.java": {
+		"change_number": 1,
+		"code_churn": 4,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"storage-hbase\\src\\main\\java\\org\\apache\\kylin\\storage\\hbase\\HBaseResourceStore.java": {
+		"change_number": 1,
+		"code_churn": 4,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"storage-hbase\\src\\main\\java\\org\\apache\\kylin\\storage\\hbase\\lookup\\HBaseLookupMRSteps.java": {
+		"change_number": 1,
+		"code_churn": 4,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"storage-hbase\\src\\main\\java\\org\\apache\\kylin\\storage\\hbase\\steps\\HFileOutputFormat3.java": {
+		"change_number": 1,
+		"code_churn": 8,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"tool\\src\\main\\java\\org\\apache\\kylin\\tool\\metrics\\systemcube\\KylinTableCreator.java": {
+		"change_number": 1,
+		"code_churn": 4,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"storage-hbase\\src\\main\\java\\org\\apache\\kylin\\storage\\hbase\\steps\\CreateHTableJob.java": {
+		"change_number": 1,
+		"code_churn": 68,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-common\\src\\main\\java\\org\\apache\\kylin\\common\\util\\Dictionary.java": {
+		"change_number": 1,
+		"code_churn": 11,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-cube\\src\\main\\java\\org\\apache\\kylin\\cube\\model\\CubeDesc.java": {
+		"change_number": 3,
+		"code_churn": 149,
+		"owner_number": 2,
+		"pre-release defect": 1
+	},
+	"query\\src\\main\\java\\org\\apache\\kylin\\query\\enumerator\\DictionaryEnumerator.java": {
+		"change_number": 1,
+		"code_churn": 142,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"query\\src\\main\\java\\org\\apache\\kylin\\query\\enumerator\\OLAPQuery.java": {
+		"change_number": 1,
+		"code_churn": 5,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"query\\src\\main\\java\\org\\apache\\kylin\\query\\relnode\\OLAPTableScan.java": {
+		"change_number": 1,
+		"code_churn": 3,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"query\\src\\main\\java\\org\\apache\\kylin\\query\\schema\\OLAPTable.java": {
+		"change_number": 1,
+		"code_churn": 4,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-dictionary\\src\\main\\java\\org\\apache\\kylin\\dict\\DictionaryManager.java": {
+		"change_number": 1,
+		"code_churn": 37,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"engine-spark\\src\\main\\java\\org\\apache\\kylin\\engine\\spark\\SparkFactDistinct.java": {
+		"change_number": 4,
+		"code_churn": 1047,
+		"owner_number": 2,
+		"pre-release defect": 1
+	},
+	"core-dictionary\\src\\main\\java\\org\\apache\\kylin\\dict\\ShrunkenDictionary.java": {
+		"change_number": 1,
+		"code_churn": 159,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-dictionary\\src\\main\\java\\org\\apache\\kylin\\dict\\ShrunkenDictionaryBuilder.java": {
+		"change_number": 1,
+		"code_churn": 49,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"engine-mr\\src\\main\\java\\org\\apache\\kylin\\engine\\mr\\IMRInput.java": {
+		"change_number": 1,
+		"code_churn": 4,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"engine-mr\\src\\main\\java\\org\\apache\\kylin\\engine\\mr\\common\\DictionaryGetterUtil.java": {
+		"change_number": 1,
+		"code_churn": 76,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"engine-mr\\src\\main\\java\\org\\apache\\kylin\\engine\\mr\\steps\\CuboidJob.java": {
+		"change_number": 1,
+		"code_churn": 5,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"engine-mr\\src\\main\\java\\org\\apache\\kylin\\engine\\mr\\steps\\ExtractDictionaryFromGlobalJob.java": {
+		"change_number": 1,
+		"code_churn": 107,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"engine-mr\\src\\main\\java\\org\\apache\\kylin\\engine\\mr\\steps\\ExtractDictionaryFromGlobalMapper.java": {
+		"change_number": 2,
+		"code_churn": 176,
+		"owner_number": 2,
+		"pre-release defect": 1
+	},
+	"engine-mr\\src\\main\\java\\org\\apache\\kylin\\engine\\mr\\steps\\InMemCuboidJob.java": {
+		"change_number": 1,
+		"code_churn": 5,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"engine-mr\\src\\main\\java\\org\\apache\\kylin\\engine\\mr\\steps\\InMemCuboidMapperBase.java": {
+		"change_number": 1,
+		"code_churn": 15,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-common\\src\\main\\java\\org\\apache\\kylin\\common\\persistence\\ResourceTool.java": {
+		"change_number": 1,
+		"code_churn": 28,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-dictionary\\src\\main\\java\\org\\apache\\kylin\\dict\\lookup\\SnapshotManager.java": {
+		"change_number": 1,
+		"code_churn": 6,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"engine-mr\\src\\main\\java\\org\\apache\\kylin\\engine\\mr\\steps\\lookup\\LookupSnapshotToMetaStoreStep.java": {
+		"change_number": 1,
+		"code_churn": 2,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-common\\src\\main\\java\\org\\apache\\kylin\\common\\persistence\\BrokenEntity.java": {
+		"change_number": 1,
+		"code_churn": 56,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-common\\src\\main\\java\\org\\apache\\kylin\\common\\persistence\\BrokenInputStream.java": {
+		"change_number": 1,
+		"code_churn": 58,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-common\\src\\main\\java\\org\\apache\\kylin\\common\\persistence\\JDBCConnectionManager.java": {
+		"change_number": 1,
+		"code_churn": 143,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-common\\src\\main\\java\\org\\apache\\kylin\\common\\persistence\\JDBCResource.java": {
+		"change_number": 1,
+		"code_churn": 64,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-common\\src\\main\\java\\org\\apache\\kylin\\common\\persistence\\JDBCResourceDAO.java": {
+		"change_number": 3,
+		"code_churn": 822,
+		"owner_number": 2,
+		"pre-release defect": 1
+	},
+	"core-common\\src\\main\\java\\org\\apache\\kylin\\common\\persistence\\JDBCResourceStore.java": {
+		"change_number": 2,
+		"code_churn": 202,
+		"owner_number": 2,
+		"pre-release defect": 1
+	},
+	"core-common\\src\\main\\java\\org\\apache\\kylin\\common\\persistence\\JDBCSqlQueryFormat.java": {
+		"change_number": 1,
+		"code_churn": 96,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-common\\src\\main\\java\\org\\apache\\kylin\\common\\persistence\\JDBCSqlQueryFormatProvider.java": {
+		"change_number": 1,
+		"code_churn": 53,
+		"owner_number": 1,
+		"pre-release defect": 1
+	},
+	"core-common\\src\\main\\java\\org\\apache\\kylin\\common\\util\\AbstractApplication.java": {
+		"change_number": 1,
+		"code_churn": 2,
+		"owner_number": 1,
+		"pre-release defect": 1
+	}
+}

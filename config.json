@@ -1,7 +1,7 @@
 {
 	"Organization": "apache",
 	"Repo": "kylin",
-	"target version": "2.5",
 	"target commit sha": "158f8768debe99746c66e516e4596707a476d7d6",
-	"pre_release_defect commit sha": "kylin-2.4.0"
+    "target version": "kylin-2.4.0",
+	"pre_release_defect version": "kylin-2.4.0"
 }

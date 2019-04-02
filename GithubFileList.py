@@ -27,21 +27,14 @@ get_file_list(rootDir, rootDir, file_content)
 with open('metrics.csv', 'w', newline='') as fd:
     writer = csv.writer(fd)
     writer.writerow(['file'])
-    for each in ['ab', 'cd', 'ef']:
+    for each in file_content:
         writer.writerow([each])
 
 # with open('config.json', 'r') as f:
 #     json_str = f.read()
 # CONFIG = json.loads(json_str)
 #
-# # githubRepo = GithubRepo(GITHUB_TOKEN, CONFIG["Organization"], CONFIG["Repo"])
-# g1 = Github(GITHUB_TOKEN)
-# # g1 = Github(user, password)
-# org = g1.get_organization(CONFIG["Organization"])
-# print('Organization: ', org.name)
-# repo = org.get_repo(CONFIG["Repo"])
-# print('Repository: ', repo.name)
-#
+
 # contents = repo.get_contents("")
 # content_list = []
 # while len(contents) > 1:
