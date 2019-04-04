@@ -4,22 +4,14 @@ from github import Github
 from github_token import GITHUB_TOKEN, user, password
 import json
 from datetime import datetime, timedelta
-import requests
-from xml.etree.ElementTree import parse, fromstring
-from urllib.request import urlopen
 import re
+from jira import JIRA
 
 
-# response = requests.get('https://jira.apache.org/jira/si/jira.issueviews:issue-xml/KYLIN-3898/KYLIN-3898.xml')
-# #处理响应
-# print('>>>>>>Response Headers:')
-# print(response.headers)
-# print( '>>>>>>Status Code:')
-# print(response.status_code)
-# print('>>>>>>>Response Body:')
-# print(response.text)
-# doc0 = fromstring(response.text)
-
+JIRA_URL = 'https://jira.apache.org/jira/si/jira.issueviews:issue-xml/%%%/%%%.xml'
+TARGET_VERSION_TAG = 'kylin-2.5.0'
+PRE_VERSION_TAG = 'kylin-2.4.0'
+TARGET_VERSION = '2.5'
 
 with open('config.json', 'r') as f:
     json_str = f.read()
@@ -33,17 +25,14 @@ print('Organization: ', org.name)
 repo = org.get_repo(CONFIG["Repo"])
 print('Repository: ', repo.name)
 
-# tags = repo.get_tags()
-# for each_tag in tags:
-#     print(each_tag.name)
-# tag1 = repo.get_tag('kylin-2.5.0')
-# tag2 = repo.get_tag('kylin-2.4.0')
-comparison = repo.compare('kylin-2.4.0', 'kylin-2.5.0')
+
+# # retrieve pre_release matrics
+comparison = repo.compare(PRE_VERSION_TAG, TARGET_VERSION_TAG)
 pre_commit_list = comparison.commits
 
 file_dict = {}
 commit_processed = 1
-issue_pattern = re.compile('^(\w+)\W+(\d+)', re.M)
+issue_pattern = re.compile('^(\w+)\W+(\d+)', re.M)  # this pattern may change according to different project
 
 for each_commit in pre_commit_list:
     file_list = each_commit.files
@@ -56,7 +45,7 @@ for each_commit in pre_commit_list:
     for each_file in file_list:
         if each_file.filename.lower().find('src/test') != -1 or not each_file.filename.lower().endswith('.java'):  # not consider test.
             continue
-        file_path = each_file.filename.replace('/', '\\')
+        file_path = each_file.filename
         if file_path not in file_dict:
             file_dict[file_path] = {}
         else:
@@ -91,24 +80,61 @@ with open('pre.json', 'w') as f:
     f.write(json_str)
 
 
-JIRA_URL = 'https://jira.apache.org/jira/si/jira.issueviews:issue-xml/%%%/%%%.xml'
-u = urlopen('https://jira.apache.org/jira/si/jira.issueviews:issue-xml/KYLIN-3898/KYLIN-3898.xml')
-doc = parse(u)
-for version in doc.findall('channel/item/version'):
-    print(version)
+# # # retrieve post defect matrix
+# get issue list
+options = {
+    'server': 'https://issues.apache.org/jira'}
+jira = JIRA(options)
 
-# target_release = repo.get_release('2.5.0')
+
+issues = jira.search_issues('project = KYLIN AND type = Bug AND affectedVersion in (v2.5.0, v2.5.1, v2.5.2, v2.5.3)',
+                            maxResults=1000)
+issue_set = set()
+for each_issue in issues:
+    not_post = False
+    for each_affectedVersion in each_issue.fields.versions:
+        if str(each_affectedVersion) < 'v2.5':
+            not_post = True
+            break
+    if not not_post:
+        issue_set.add(str(each_issue)[6:])   # kylin length = 5
+
+
 target_commit = repo.get_commit('158f8768debe99746c66e516e4596707a476d7d6')
 print('target version release date: ', target_commit.commit.committer.date)
 target_date = target_commit.commit.committer.date
-delta = timedelta(days=180)
-deadline_date = target_date + delta
+# delta = timedelta(days=180)  # check post-defects in 6 months
+# deadline_date = target_date + delta
+deadline_date = datetime.now()
+post_commits = repo.get_commits(since=target_date, until=deadline_date)
+post_dict = {}
+for each_commit in post_commits:
+    # if it's a pre-release defect
+    res = re.search(issue_pattern, each_commit.commit.message.lower())
+    if res is None:
+        continue
+    issue_number = res.group(2)
+    print('post-release defect: KYLIN', issue_number)
+    if issue_number in issue_set:
+        print('also in Jira ', issue_number)
+        file_list = each_commit.files
+        for each_file in file_list:
+            # not consider test. only java.
+            if each_file.filename.lower().find('src/test') != -1 or not each_file.filename.lower().endswith('.java'):
+                continue
+            file_path = each_file.filename
+            post_dict[file_path] = {'post-release defect': 1}
+
 
 # some_string = 'KYLIN-3902 fix JoinDesc in case of same fact column with multiple'
 # some_string = some_string.lower()
 
 # res = re.search(pattern, some_string)
+# dump metrics to file
 
+json_str = json.dumps(post_dict, indent='\t')
+with open('post.json', 'w') as f:
+    f.write(json_str)
 
 
 print(1)

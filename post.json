@@ -1,0 +1,140 @@
+{
+	"core-metadata/src/main/java/org/apache/kylin/metadata/model/FunctionDesc.java": {
+		"post-release defect": 1
+	},
+	"server-base/src/main/java/org/apache/kylin/rest/service/JobService.java": {
+		"post-release defect": 1
+	},
+	"core-metadata/src/main/java/org/apache/kylin/metadata/model/DataModelManager.java": {
+		"post-release defect": 1
+	},
+	"server-base/src/main/java/org/apache/kylin/rest/service/TableSchemaUpdateChecker.java": {
+		"post-release defect": 1
+	},
+	"server-base/src/main/java/org/apache/kylin/rest/service/TableService.java": {
+		"post-release defect": 1
+	},
+	"storage-hbase/src/main/java/org/apache/kylin/storage/hbase/steps/BulkLoadJob.java": {
+		"post-release defect": 1
+	},
+	"engine-spark/src/main/java/org/apache/kylin/engine/spark/KylinKryoRegistrator.java": {
+		"post-release defect": 1
+	},
+	"engine-spark/src/main/java/org/apache/kylin/engine/spark/SparkFactDistinct.java": {
+		"post-release defect": 1
+	},
+	"core-common/src/main/java/org/apache/kylin/common/util/CliCommandExecutor.java": {
+		"post-release defect": 1
+	},
+	"engine-mr/src/main/java/org/apache/kylin/engine/mr/steps/FactDistinctColumnsJob.java": {
+		"post-release defect": 1
+	},
+	"core-metadata/src/main/java/org/apache/kylin/metadata/cachesync/Broadcaster.java": {
+		"post-release defect": 1
+	},
+	"core-cube/src/main/java/org/apache/kylin/cube/CubeCapabilityChecker.java": {
+		"post-release defect": 1
+	},
+	"core-cube/src/main/java/org/apache/kylin/cube/common/SegmentPruner.java": {
+		"post-release defect": 1
+	},
+	"core-metadata/src/main/java/org/apache/kylin/metadata/datatype/DataType.java": {
+		"post-release defect": 1
+	},
+	"engine-mr/src/main/java/org/apache/kylin/engine/mr/steps/FactDistinctColumnsReducer.java": {
+		"post-release defect": 1
+	},
+	"engine-mr/src/main/java/org/apache/kylin/engine/mr/steps/UpdateCubeInfoAfterBuildStep.java": {
+		"post-release defect": 1
+	},
+	"core-common/src/main/java/org/apache/kylin/common/util/HadoopUtil.java": {
+		"post-release defect": 1
+	},
+	"engine-mr/src/main/java/org/apache/kylin/engine/mr/common/CubeStatsReader.java": {
+		"post-release defect": 1
+	},
+	"storage-hbase/src/main/java/org/apache/kylin/storage/hbase/steps/HBaseSparkSteps.java": {
+		"post-release defect": 1
+	},
+	"core-metadata/src/main/java/org/apache/kylin/measure/bitmap/BitmapAggregator.java": {
+		"post-release defect": 1
+	},
+	"core-metadata/src/main/java/org/apache/kylin/measure/hllc/HLLCAggregator.java": {
+		"post-release defect": 1
+	},
+	"core-metadata/src/main/java/org/apache/kylin/measure/percentile/PercentileAggregator.java": {
+		"post-release defect": 1
+	},
+	"core-metadata/src/main/java/org/apache/kylin/measure/raw/RawAggregator.java": {
+		"post-release defect": 1
+	},
+	"core-metadata/src/main/java/org/apache/kylin/measure/topn/Counter.java": {
+		"post-release defect": 1
+	},
+	"core-metadata/src/main/java/org/apache/kylin/measure/topn/DoubleDeltaSerializer.java": {
+		"post-release defect": 1
+	},
+	"core-metadata/src/main/java/org/apache/kylin/measure/topn/TopNAggregator.java": {
+		"post-release defect": 1
+	},
+	"core-metadata/src/main/java/org/apache/kylin/measure/topn/TopNCounterSerializer.java": {
+		"post-release defect": 1
+	},
+	"core-metadata/src/main/java/org/apache/kylin/measure/topn/TopNMeasureType.java": {
+		"post-release defect": 1
+	},
+	"engine-mr/src/main/java/org/apache/kylin/engine/mr/steps/SegmentReEncoder.java": {
+		"post-release defect": 1
+	},
+	"engine-spark/src/main/java/org/apache/kylin/engine/spark/SparkCubingByLayer.java": {
+		"post-release defect": 1
+	},
+	"engine-spark/src/main/java/org/apache/kylin/engine/spark/SparkCubingMerge.java": {
+		"post-release defect": 1
+	},
+	"engine-mr/src/main/java/org/apache/kylin/engine/mr/common/AbstractHadoopJob.java": {
+		"post-release defect": 1
+	},
+	"engine-mr/src/main/java/org/apache/kylin/engine/mr/steps/UpdateDictionaryStep.java": {
+		"post-release defect": 1
+	},
+	"core-common/src/main/java/org/apache/kylin/common/KylinConfig.java": {
+		"post-release defect": 1
+	},
+	"server-base/src/main/java/org/apache/kylin/rest/service/ProjectService.java": {
+		"post-release defect": 1
+	},
+	"server-base/src/main/java/org/apache/kylin/rest/job/StorageCleanupJob.java": {
+		"post-release defect": 1
+	},
+	"server-base/src/main/java/org/apache/kylin/rest/service/QueryService.java": {
+		"post-release defect": 1
+	},
+	"core-cube/src/main/java/org/apache/kylin/cube/util/KeyValueBuilder.java": {
+		"post-release defect": 1
+	},
+	"core-common/src/main/java/org/apache/kylin/common/persistence/JDBCResourceDAO.java": {
+		"post-release defect": 1
+	},
+	"server-base/src/main/java/org/apache/kylin/rest/service/CubeService.java": {
+		"post-release defect": 1
+	},
+	"core-job/src/main/java/org/apache/kylin/job/execution/AbstractExecutable.java": {
+		"post-release defect": 1
+	},
+	"core-job/src/main/java/org/apache/kylin/job/execution/DefaultChainedExecutable.java": {
+		"post-release defect": 1
+	},
+	"core-job/src/main/java/org/apache/kylin/job/execution/ExecutableManager.java": {
+		"post-release defect": 1
+	},
+	"core-job/src/main/java/org/apache/kylin/job/impl/threadpool/DefaultScheduler.java": {
+		"post-release defect": 1
+	},
+	"storage-hbase/src/main/java/org/apache/kylin/storage/hbase/steps/SparkCubeHFile.java": {
+		"post-release defect": 1
+	},
+	"storage-hbase/src/main/java/org/apache/kylin/storage/hbase/steps/CreateHTableJob.java": {
+		"post-release defect": 1
+	}
+}
